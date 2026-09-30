@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionais.1", "Condicionais.1\Condicionais.1.csproj", "{27618C50-6AE4-45D3-A07A-5A1C2B2F8A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Condicionais.2", "Condicionais.2\Condicionais.2.csproj", "{0FF45DB1-99CC-4184-AF61-2C3C2E25673F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27618C50-6AE4-45D3-A07A-5A1C2B2F8A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27618C50-6AE4-45D3-A07A-5A1C2B2F8A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27618C50-6AE4-45D3-A07A-5A1C2B2F8A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27618C50-6AE4-45D3-A07A-5A1C2B2F8A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF45DB1-99CC-4184-AF61-2C3C2E25673F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF45DB1-99CC-4184-AF61-2C3C2E25673F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF45DB1-99CC-4184-AF61-2C3C2E25673F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF45DB1-99CC-4184-AF61-2C3C2E25673F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
