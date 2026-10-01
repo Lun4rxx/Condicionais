@@ -13,13 +13,14 @@
  
  // Ler a opção da pessoa, converter para inteiro e salvar em algum lugar
  // Crie uma variavel > atribuir valor > converter para inteiro > Ler a proxima linha do console.
- 
- int opcaoUsuario = Convert.ToInt32(Console.ReadLine());
 
- while (opcaoUsuario < 1 || opcaoUsuario > 3)
+ int opcaoUsuario; 
+ bool converteuOpcao = int.TryParse(Console.ReadLine(), out opcaoUsuario);
+
+ while (opcaoUsuario < 1 || opcaoUsuario > 3 || !converteuOpcao)
  {
  Console.WriteLine("Erro. Tente Novamente escolhendo opções 1 e 3.");
- opcaoUsuario = Convert.ToInt32(Console.ReadLine());
+ converteuOpcao = int.TryParse(Console.ReadLine(), out opcaoUsuario);
  }
 
  var aleatorio = new Random();
